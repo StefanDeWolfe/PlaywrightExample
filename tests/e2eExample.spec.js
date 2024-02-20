@@ -2,7 +2,7 @@
 const { test, expect } = require('@playwright/test');
 const website = 'https://www.saucedemo.com/'
 
-test('standard user login', async ({ page }) => {
+test('standard user login and logout', async ({ page }) => {
   await page.goto(website);
   const standardUser = 'standard_user'
   const standardPass = 'secret_sauce'
