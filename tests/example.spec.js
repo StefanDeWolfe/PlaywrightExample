@@ -22,5 +22,5 @@ test('standard user login', async ({ page }) => {
 
   await page.locator('[data-test="login-button"]').click()
 
-  await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html)');
+  await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
 });
