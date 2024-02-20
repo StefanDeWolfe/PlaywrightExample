@@ -10,4 +10,5 @@ Some comamnds to run to see if its working
 npx playwright test [test file]
 npx playwright test example.spec.js
 npx playwright test -g "check title"
+npx playwright test -g "standard user login" --project firefox --headed
 ```
